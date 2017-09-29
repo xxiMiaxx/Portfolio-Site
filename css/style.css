@@ -1,0 +1,27 @@
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49;
+  font-weight: 300;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.text-mute {
+  color: #7d97ad;
+}
+
+/* using font icon */
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
